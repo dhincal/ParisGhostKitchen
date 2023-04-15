@@ -7,3 +7,6 @@
 *{
     font-family: 'Source Sans Pro', sans-serif;
 }
+.mobileSidebar{
+    box-shadow: 0 0 0 10000px rgba(0, 0, 0, .70);
+}
