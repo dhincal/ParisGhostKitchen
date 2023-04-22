@@ -11,7 +11,7 @@ export default function AboutUs() {
         <mobile>
             <Navbar />
             <main className='flex flex-col items-center px-6 py-3'>
-                <Image src="/logo.png" height={160} width={160} alt='Paris Ghost Kitchen'/>
+                <Image src="/logo1.png" height={160} width={160} alt='Paris Ghost Kitchen'/>
                 <div className='flex flex-col items-center gap-y-3 mt-6 w-full'>
                     <h3 className='text-kitchen-green text-2xl font-semibold text-center'>Hakkımızda</h3>
                         <div className='w-full h-[2px] bg-kitchen-green' />
