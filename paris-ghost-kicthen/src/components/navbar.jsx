@@ -25,6 +25,9 @@ export default function Navbar() {
             <NextLink href="/iletisim">
                 <button>Bize Ulaşın</button>
             </NextLink>
+             <NextLink href="/hakkimizda">
+                <button>Hakkımızda</button>
+            </NextLink>
             </div>
         <nav className='flex bg-kitchen-green p-4 sticky top-0 w-full'>
             <Bars3Icon onClick={() => setSidebar(true)} className='h-9 w-9 stroke-white' />
