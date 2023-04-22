@@ -11,6 +11,7 @@ export default function MenuItem({category, name, desc, price, img}) {
                     src={img}
                     fill
                     className='object-contain'
+                    alt={category}
                 />
             </div>
             <h3 className='font-semibold text-xl'>{name}</h3>
