@@ -8,7 +8,7 @@ export default function ContactUs() {
         <Head>
             <title>Paris Ghost Kitchen - Bize Ulaşın</title>
         </Head>
-        <mobile>
+        <div>
             <Navbar />
             <main className='flex flex-col items-center px-6 py-3'>
                 <Image src="/logo.png" height={160} width={160} alt='Paris Ghost Kitchen'/>
@@ -37,7 +37,7 @@ export default function ContactUs() {
                     <p className='text-kitchen-dark text-xs text-center mt-3'>Telif Hakkı © 2023 Paris Ghost Kitchen - Tüm Hakları Saklıdır.</p>
               
             </main>
-        </mobile>
+        </div>
     </>
   )
 }

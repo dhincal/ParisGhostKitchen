@@ -49,8 +49,10 @@ export default function Home() {
           <MenuItem img="/smoothie.png" name="Smoothie" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit" price={30} category={"drink"} />
           <MenuItem img="/smoothie.png" name="Smoothie" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit" price={30} category={"drink"} />
           <MenuItem img="/smoothie.png" name="Smoothie" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit" price={30} category={"drink"} />
-                
         </div>        
+        <div className='w-full h-[2px] bg-kitchen-green mt-5' />
+        <p className='text-kitchen-dark text-xs text-center mt-3 mb-5'>Telif Hakkı © 2023 Paris Ghost Kitchen - Tüm Hakları Saklıdır.</p>
+              
       </main>
     </>
   )
