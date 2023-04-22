@@ -10,7 +10,7 @@ export default function Navbar() {
 
     return (
     <>
-        <div className={`${sidebar ? "overflow-y-hidden mobileSidebar" : " -translate-x-[100vw]"} text-white font-semibold text-2xl z-50  gap-y-5 flex flex-col bg-kitchen-green absolute h-[100lvh] w-[75vw] overflow-y-hidden p-5 transition-all duration-300`}>
+        <div className={`${sidebar ? "overflow-y-hidden mobileSidebar" : " mobileSidebarOff -translate-x-[100vw]"} text-white font-semibold text-2xl z-50  gap-y-5 flex flex-col bg-kitchen-green absolute h-[100lvh] w-[75vw] overflow-y-hidden p-5 transition-all duration-300`}>
             <button className='w-fit' onClick={() => setSidebar(!sidebar)}>
                 <XMarkIcon className="w-10 -translate-x-2" />
             </button>
