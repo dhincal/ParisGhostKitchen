@@ -33,7 +33,7 @@ export default function ContactUs() {
                     </div>
                     <button className='bg-kitchen-green text-white p-2 rounded-lg text-center w-full font-semibold'>Gönder</button>
                 </div>
-                 <div className='w-full h-[2px] bg-kitchen-green mt-5' />
+                 <div className='w-full h-[2px] bg-kitchen-green mt-10' />
                     <p className='text-kitchen-dark text-xs text-center mt-3'>Telif Hakkı © 2023 Paris Ghost Kitchen - Tüm Hakları Saklıdır.</p>
               
             </main>
