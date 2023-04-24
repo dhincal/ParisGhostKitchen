@@ -8,7 +8,7 @@ export default function AboutUs() {
       <Head>
 
         </Head>
-        <mobile>
+        <div>
             <Navbar />
             <main className='flex flex-col items-center px-6 py-3'>
                 <Image src="/logo1.png" height={160} width={160} alt='Paris Ghost Kitchen'/>
@@ -32,11 +32,21 @@ export default function AboutUs() {
                             sonra sırasıyla paket sipariş miktarlarının <span className='text-kitchen-green font-semibold'>Avrupa </span>da yoğun olduğu Berlin ve Londra 
                             şehirlerinde şubeleşmesi hedeflenmektedir.
                         </p>
-                    <div className='w-full h-[2px] bg-kitchen-green mt-10' />
+                        <div className='relative w-full h-60 rounded-2xl'>
+                            <Image 
+                                src="/kitchen.jpeg"
+                                fill
+                                className='object-cover rounded-2xl'
+                                alt='Ghost Kitchen'
+                            />
+                        </div>
+                        <h3 className='font-semibold text-xl mt-5'>İletişim</h3>
+                    
+                    <div className='w-full h-[2px] bg-kitchen-green mt-5' />
                     <p className='text-kitchen-dark text-xs text-center'>Telif Hakkı © 2023 Paris Ghost Kitchen - Tüm Hakları Saklıdır.</p>
                 </div>
             </main>
-        </mobile>
+        </div>
     </>
   )
 }

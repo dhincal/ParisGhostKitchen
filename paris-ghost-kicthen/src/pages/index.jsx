@@ -18,6 +18,7 @@ export default function Home() {
             src="/bowls.jpg" 
             fill
             className='object-cover rounded-full'
+            alt='bowls'
           />
         </div>
         <h3 className='text-kitchen-green text-2xl font-semibold mt-5'>Bowls</h3>
@@ -35,6 +36,7 @@ export default function Home() {
             src="/bagels.jpg" 
             fill
             className='object-cover rounded-full'
+            alt='bagels'
           />
         </div>      
         <h3 className='text-kitchen-green text-2xl font-semibold mt-5'>Bagels</h3>
@@ -52,6 +54,7 @@ export default function Home() {
             src="/wraps.jpeg" 
             fill
             className='object-cover rounded-full'
+            alt='wraps'
           />
         </div>      
         <h3 className='text-kitchen-green text-2xl font-semibold mt-5'>Wraps</h3>
@@ -68,6 +71,7 @@ export default function Home() {
             src="/drinks.jpg" 
             fill
             className='object-cover rounded-full'
+            alt='drinks'
           />
         </div>      
         <h3 className='text-kitchen-green text-2xl font-semibold mt-5 text-center'>Something to Drink</h3>
