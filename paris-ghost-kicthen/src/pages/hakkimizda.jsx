@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Head from 'next/head'
 import Navbar from '@/components/navbar'
+import { PhoneIcon } from '@heroicons/react/24/outline'
 
 export default function AboutUs() {
   return (
@@ -41,6 +42,9 @@ export default function AboutUs() {
                             />
                         </div>
                         <h3 className='font-semibold text-xl mt-5'>İletişim</h3>
+                        <div className='flex gap-x-2 items-center'>
+                            <PhoneIcon className='h-5 w-5'/><p>0 (532) 290 25 99</p>
+                        </div>
                     
                     <div className='w-full h-[2px] bg-kitchen-green mt-5' />
                     <p className='text-kitchen-dark text-xs text-center'>Telif Hakkı © 2023 Paris Ghost Kitchen - Tüm Hakları Saklıdır.</p>
