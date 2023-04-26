@@ -10,7 +10,7 @@ export default function Home() {
         <title>Paris Ghost Kitchen - Menü</title>
       </Head>
       <Navbar />
-      <main className='flex flex-col items-center px-6 py-3'>
+      <main className='flex flex-col items-center px-6 py-3 bg-kitchen-orange/5'>
         <Image src="/logo1.png" height={160} width={160} alt='Paris Ghost Kitchen'/>
         <h2 className='text-2xl font-semibold mt-6'>Menü</h2>
         <div className='w-[250px] h-[250px] rounded-full relative mt-10'>
