@@ -24,8 +24,9 @@ export default function Navbar() {
                 <button>Hakkımızda</button>
             </NextLink>
             </div>
-        <nav className='flex bg-kitchen-green p-4 sticky top-0 w-full z-40'>
+        <nav className='grid grid-cols-3 bg-kitchen-green p-4 sticky top-0 w-full z-40 items-center'>
             <Bars3Icon onClick={() => setSidebar(true)} className='h-9 w-9 stroke-white' />
+            <p className='text-white text-xl font-semibold mx-auto'>Bonjour</p>
         </nav>
     </>
   )
