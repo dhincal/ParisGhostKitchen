@@ -7,8 +7,8 @@ import { PhoneIcon } from '@heroicons/react/24/outline'
 export default function AboutUs() {
   return (
     <>
-      <Head>
-
+        <Head>
+            <title>Paris Ghost Kitchen - Hakkımızda</title>
         </Head>
         <div>
             <Navbar />
