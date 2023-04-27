@@ -10,6 +10,11 @@ export default function Navbar() {
 
     return (
     <>
+        <Head>
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+            <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet" /> 
+        </Head>
         <div className={`${sidebar ? "overflow-y-hidden mobileSidebar" : " mobileSidebarOff -translate-x-[100vw]"} text-white font-semibold text-2xl z-50  gap-y-5 flex flex-col bg-kitchen-green absolute h-[100lvh] w-[75vw] overflow-y-hidden p-5 transition-all duration-300`}>
             <button className='w-fit' onClick={() => setSidebar(!sidebar)}>
                 <XMarkIcon className="w-10 -translate-x-2" />
@@ -26,7 +31,7 @@ export default function Navbar() {
             </div>
         <nav className='grid grid-cols-3 bg-kitchen-green p-4 sticky top-0 w-full z-40 items-center'>
             <Bars3Icon onClick={() => setSidebar(true)} className='h-9 w-9 stroke-white' />
-            <p className='text-white text-xl font-semibold mx-auto'>Bonjour</p>
+            <p className='text-white text-3xl mx-auto navHeader tracking-wider'>Bonjour</p>
         </nav>
     </>
   )

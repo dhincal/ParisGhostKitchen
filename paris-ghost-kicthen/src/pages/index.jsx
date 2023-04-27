@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Head from 'next/head'
 import Navbar from '@/components/navbar'
 import MenuItem from '@/components/menuItem'
+import Footer from '@/components/footer'
 
 export default function Home() {
   return (
@@ -82,11 +83,9 @@ export default function Home() {
           <MenuItem img="/smoothie.png" name="Basil Mint Ayran" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit" price={4.90} category={"drink"} />
           <MenuItem img="/smoothie.png" name="Perrier" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit" price={4.90} category={"drink"} />
           <MenuItem img="/smoothie.png" name="Evian" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit" price={4.90} category={"drink"} />
-        </div>        
-        <div className='w-full h-[2px] bg-kitchen-green mt-10' />
-        <p className='text-kitchen-dark text-xs text-center mt-3 mb-5'>Telif Hakkı © 2023 Paris Ghost Kitchen - Tüm Hakları Saklıdır.</p>
-              
+        </div>              
       </main>
+      <Footer />
     </>
   )
 }
