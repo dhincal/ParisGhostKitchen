@@ -8,13 +8,14 @@ export default function Footer() {
     <>
         <footer className='flex flex-col gap-y-5 bg-kitchen-green p-4 pb-0 sticky top-0 w-full z-40 items-center'>
             <div className="flex justify-between text-white text-lg w-full items-center text-center ">
-                <Link className="w-1/3" href="/hakkimizda">
-                    Hakkımızda
-                </Link>
-                <Link className="w-1/3" href="/">
+                
+                <Link className="w-1/3 text-center" href="/">
                     Menü
                 </Link>
-                <Link className="w-1/3" href="/iletisim">
+                <Link className="w-1/3 text-center" href="/hakkimizda">
+                    Hakkımızda
+                </Link>
+                <Link className="w-1/3 text-center" href="/iletisim">
                     İletişim
                 </Link>
             </div>
