@@ -70,7 +70,7 @@ export default function AboutUs() {
                         </p>
                     </div>
                 </main>
-                <main className="hidden lg:flex flex-col p-5 mx-auto  xl:w-9/12">
+                <main className="hidden lg:flex flex-col p-5 mx-auto  min-[1500px]:w-9/12">
                     {/* <h3 className='text-kitchen-green text-2xl font-semibold'>Hakkımızda</h3>
                 <div className='w-full h-[2px] bg-kitchen-green' /> */}
                     <Image
@@ -128,8 +128,6 @@ export default function AboutUs() {
                                 alt="Ghost Kitchen"
                             />
                         </div>
-                    </div>
-                    <div className="flex flex-col w-full h-full items-center justify-center gap-y-5">
                     </div>
                 </main>
                 <Footer />
