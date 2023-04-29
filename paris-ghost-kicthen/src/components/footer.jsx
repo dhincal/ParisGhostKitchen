@@ -49,7 +49,7 @@ export default function Footer() {
 
 
             </footer>
-            <footer className="lg:grid grid-cols-4 hidden bg-kitchen-green p-4 mt-5">
+            <footer className="lg:grid grid-cols-4 hidden bg-kitchen-green p-4">
                 <div className="flex flex-col col-start-2 justify-center gap-y-5 text-white text-2xl w-full items-center text-center">
 
                     <Link className="text-center" href="/">
