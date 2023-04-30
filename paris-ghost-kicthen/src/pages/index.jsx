@@ -11,7 +11,7 @@ export default function Home() {
         <title>Paris Ghost Kitchen - Menü</title>
       </Head>
       <Navbar />
-      <main className='flex flex-col items-center px-6 py-3 bg-kitchen-orange/5'>
+      <main className='flex flex-col items-center px-6 py-3 pb-10 bg-kitchen-orange/5'>
         <Image src="/logo1.png" height={200} width={200} alt='Paris Ghost Kitchen' className='md:mx-auto' />
         <h2 className='text-2xl font-semibold mt-6 md:mx-auto'>Menu</h2>
         <div className='flex flex-col items-center'>
@@ -56,7 +56,7 @@ export default function Home() {
         <div className='flex flex-col items-center'>
           <div className='w-[250px] h-[250px] rounded-full relative mt-10'>
             <Image
-              src="/bagels.jpg"
+              src="/wraps.jpeg"
               fill
               className='object-cover rounded-full'
               alt='bowls'
@@ -75,7 +75,7 @@ export default function Home() {
         <div className='flex flex-col items-center'>
           <div className='w-[250px] h-[250px] rounded-full relative mt-10'>
             <Image
-              src="/bagels.jpg"
+              src="/drinks.jpg"
               fill
               className='object-cover rounded-full'
               alt='bowls'
