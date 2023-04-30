@@ -28,14 +28,9 @@ export default function AboutUs() {
                         <p className="text-kitchen-dark text-center">
                             Paris Ghost Kitchen sadece yemek teslimatı yapacak şekilde çalışan
                             restoran işletmesidir. Müşterilerin mobil uygulama, internet
-                            sitesi veya çevrimiçi yemek sipariş{" "}
-                            <span className="text-kitchen-green font-semibold">
-                                sistemleri
-                            </span>{" "}
-                            üzerinden vermiş olduğu yiyecek-içecek siparişlerini{" "}
-                            <span className="text-kitchen-green font-semibold">
-                                kurye ile teslim edecek şekilde yada gel-al
-                            </span>{" "}
+                            sitesi veya çevrimiçi yemek sipariş sistemleri
+                            üzerinden vermiş olduğu yiyecek-içecek siparişlerini
+                            kurye ile teslim edecek şekilde yada gel-al
                             şeklinde çalışmaktadır. Daha az yatırım maliyeti ve daha az
                             çalışanla yüksek karlılık avantajı sağlar.
                         </p>
@@ -48,26 +43,59 @@ export default function AboutUs() {
                             />
                         </div>
                         <p className="text-kitchen-dark text-center">
-                            Paket gıda dağıtım endüstrisinde pazarın gelecek yıl{" "}
-                            <span className="text-kitchen-green font-semibold">
-                                35 milyar dolara{" "}
-                            </span>{" "}
+                            Paket gıda dağıtım endüstrisinde pazarın gelecek yıl
+                            35 milyar dolara
                             ulaşacağı tahmin ediliyor. Pazar araştırma şirketi Euromonitor’un
-                            verilerine göre, ‘hayalet mutfak’ pazarının 2030 yılına kadar{" "}
-                            <span className="text-kitchen-green font-semibold">
-                                1 trilyon dolara{" "}
-                            </span>{" "}
+                            verilerine göre, ‘hayalet mutfak’ pazarının 2030 yılına kadar 1 trilyon dolara
                             ulaşması bekleniyor.
                         </p>
                         <p className="text-kitchen-dark text-center">
-                            Avrupa’da ghost kitchen operasyonel olarak güçlü olduğumuz{" "}
-                            <span className="text-kitchen-green font-semibold">Paris</span>{" "}
-                            şehri ile başlayacak daha sonra sırasıyla paket sipariş
-                            miktarlarının{" "}
-                            <span className="text-kitchen-green font-semibold">Avrupa </span>
-                            da yoğun olduğu Berlin ve Londra şehirlerinde şubeleşmesi
-                            hedeflenmektedir.
+                            Avrupa’da ghost kitchen operasyonel olarak güçlü olduğumuz Paris şehrinde
+                            başlayacak ve sonrasında birden fazla lokasyonda şubeleşmeye devam edecektir.
                         </p>
+                        <div className="flex flex-wrap gap-y-5 justify-center gap-x-9">
+                            <p className="text-lg font-semibold text-center mt-5 w-full">Fransa Çevrimiçi Yemek Sipariş Partnerleri</p>
+                            <div className="relative h-32 w-32">
+                                <Image
+                                    src="/glovo.png"
+                                    fill
+                                    className="object-cover rounded-2xl"
+                                    alt="Getir"
+                                />
+                            </div>
+                            <div className="relative h-32 w-32">
+                                <Image
+                                    src="/justeat.png"
+                                    fill
+                                    className="object-cover rounded-2xl"
+                                    alt="Getir"
+                                />
+                            </div>
+                            <div className="relative h-32 w-32">
+                                <Image
+                                    src="/getir.jpg"
+                                    fill
+                                    className="object-cover rounded-2xl"
+                                    alt="Getir"
+                                />
+                            </div>
+                            <div className="relative h-32 w-32">
+                                <Image
+                                    src="/ubereats.png"
+                                    fill
+                                    className="object-cover rounded-2xl"
+                                    alt="Getir"
+                                />
+                            </div>
+                            <div className="relative h-32 w-32">
+                                <Image
+                                    src="/delivero.png"
+                                    fill
+                                    className="object-cover rounded-2xl"
+                                    alt="Getir"
+                                />
+                            </div>
+                        </div>
                     </div>
                 </main>
                 <main className="hidden lg:flex flex-col p-5 mx-auto  min-[1500px]:w-9/12">
@@ -86,37 +114,22 @@ export default function AboutUs() {
                             <p className="text-kitchen-dark">
                                 Paris Ghost Kitchen sadece yemek teslimatı yapacak şekilde çalışan
                                 restoran işletmesidir. Müşterilerin mobil uygulama, internet
-                                sitesi veya çevrimiçi yemek sipariş{" "}
-                                <span className="text-kitchen-green font-semibold">
-                                    sistemleri
-                                </span>{" "}
-                                üzerinden vermiş olduğu yiyecek-içecek siparişlerini{" "}
-                                <span className="text-kitchen-green font-semibold">
-                                    kurye ile teslim edecek şekilde yada gel-al
-                                </span>{" "}
+                                sitesi veya çevrimiçi yemek sipariş sistemleri
+                                üzerinden vermiş olduğu yiyecek-içecek siparişlerini
+                                kurye ile teslim edecek şekilde yada gel-al
                                 şeklinde çalışmaktadır. Daha az yatırım maliyeti ve daha az
                                 çalışanla yüksek karlılık avantajı sağlar.
                             </p>
                             <p className="text-kitchen-dark">
-                                Paket gıda dağıtım endüstrisinde pazarın gelecek yıl{" "}
-                                <span className="text-kitchen-green font-semibold">
-                                    35 milyar dolara{" "}
-                                </span>{" "}
+                                Paket gıda dağıtım endüstrisinde pazarın gelecek yıl 35 milyar dolara
                                 ulaşacağı tahmin ediliyor. Pazar araştırma şirketi Euromonitor’un
-                                verilerine göre, ‘hayalet mutfak’ pazarının 2030 yılına kadar{" "}
-                                <span className="text-kitchen-green font-semibold">
-                                    1 trilyon dolara{" "}
-                                </span>{" "}
+                                verilerine göre, ‘hayalet mutfak’ pazarının 2030 yılına kadar 1 trilyon dolara
                                 ulaşması bekleniyor.
                             </p>
                             <p className="text-kitchen-dark">
-                                Avrupa’da ghost kitchen operasyonel olarak güçlü olduğumuz{" "}
-                                <span className="text-kitchen-green font-semibold">Paris</span>{" "}
-                                şehri ile başlayacak daha sonra sırasıyla paket sipariş
-                                miktarlarının{" "}
-                                <span className="text-kitchen-green font-semibold">Avrupa </span>
-                                da yoğun olduğu Berlin ve Londra şehirlerinde şubeleşmesi
-                                hedeflenmektedir.
+                                Avrupa’da ghost kitchen operasyonel olarak güçlü olduğumuz Paris
+                                şehrinde başlayacak ve sonrasında birden fazla lokasyonda şubeleşmeye devam edecektir.
+
                             </p>
                         </div>
 
@@ -126,6 +139,49 @@ export default function AboutUs() {
                                 fill
                                 className="object-cover rounded-2xl"
                                 alt="Ghost Kitchen"
+                            />
+                        </div>
+                    </div>
+                    <div className="flex flex-wrap gap-y-5 justify-center gap-x-9 w-1/2 mx-auto mt-14">
+                        <p className="text-lg font-semibold text-center mt-5 w-full">Fransa Çevrimiçi Yemek Sipariş Partnerleri</p>
+                        <div className="relative h-48 w-48">
+                            <Image
+                                src="/glovo.png"
+                                fill
+                                className="object-cover rounded-2xl"
+                                alt="Getir"
+                            />
+                        </div>
+                        <div className="relative h-48 w-48">
+                            <Image
+                                src="/justeat.png"
+                                fill
+                                className="object-cover rounded-2xl"
+                                alt="Getir"
+                            />
+                        </div>
+                        <div className="relative h-48 w-48">
+                            <Image
+                                src="/getir.jpg"
+                                fill
+                                className="object-cover rounded-2xl"
+                                alt="Getir"
+                            />
+                        </div>
+                        <div className="relative h-48 w-48">
+                            <Image
+                                src="/ubereats.png"
+                                fill
+                                className="object-cover rounded-2xl"
+                                alt="Getir"
+                            />
+                        </div>
+                        <div className="relative h-48 w-48">
+                            <Image
+                                src="/delivero.png"
+                                fill
+                                className="object-cover rounded-2xl"
+                                alt="Getir"
                             />
                         </div>
                     </div>
