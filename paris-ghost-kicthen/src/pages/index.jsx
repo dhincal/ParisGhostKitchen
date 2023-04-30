@@ -87,7 +87,6 @@ export default function Home() {
         <div className='flex flex-col md:flex md:flex-row md:justify-center md:flex-wrap w-full items-center mt-10 gap-y-10'>
           <MenuItem name="Smoothie" price={6.90} category={"drink"} />
           <MenuItem name="Jus Frais / Fresh Juice" price={6.90} category={"drink"} />
-          <MenuItem name="Basilic Menthe Ayran / Basil Mint Ayran" price={4.90} category={"drink"} />
           <MenuItem name="Perrier" price={4.90} category={"drink"} />
           <MenuItem name="Évian" price={4.90} category={"drink"} />
         </div>
