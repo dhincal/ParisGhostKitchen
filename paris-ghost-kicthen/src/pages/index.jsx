@@ -91,9 +91,9 @@ export default function Home() {
           <MenuItem name="Évian" price={4.90} category={"drink"} />
         </div>
       </main>
-      <Footer />
-
-
+      <div className="w-full bg-kitchen-green py-4 text-center text-white">
+        Telif Hakkı © 2023 Paris Ghost Kitchen - Tüm Hakları Saklıdır.
+      </div>
     </>
   )
 }
