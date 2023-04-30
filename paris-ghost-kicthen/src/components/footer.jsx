@@ -49,7 +49,7 @@ export default function Footer() {
 
 
             </footer>
-            <footer className="lg:grid grid-cols-4 hidden bg-kitchen-green p-4">
+            <footer className="lg:grid grid-cols-4 hidden bg-kitchen-green pt-4">
                 <div className="flex flex-col col-start-2 justify-center gap-y-5 text-white text-2xl w-full items-center text-center">
 
                     <Link className="text-center" href="/">
@@ -86,7 +86,9 @@ export default function Footer() {
                     </div>
                 </div>
                 <iframe className='w-full rounded-xl focus:outline-none' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99930.12436793988!2d2.4911776616984587!3d48.83979808440579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e672ad2d1967f9%3A0xf16014d390b3f025!2sAquatic%20Center%20Dome%20Vincennes!5e0!3m2!1str!2str!4v1682536032901!5m2!1str!2str" height="250" referrerPolicy="no-referrer-when-downgrade"></iframe>
-
+                <div className="col-span-4 bg-[#089653]/50 py-2 text-center text-white mb-0 mt-5">
+                    Telif Hakkı © 2023 Paris Ghost Kitchen - Tüm Hakları Saklıdır.
+                </div>
             </footer>
         </>
     )
