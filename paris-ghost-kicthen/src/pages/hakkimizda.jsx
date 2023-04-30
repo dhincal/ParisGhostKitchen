@@ -142,7 +142,7 @@ export default function AboutUs() {
                             />
                         </div>
                     </div>
-                    <div className="flex flex-wrap gap-y-5 justify-center gap-x-9 w-1/2 mx-auto mt-14">
+                    <div className="flex flex-wrap gap-y-5 justify-center gap-x-9 w-1/2 mx-auto mt-14 mb-14">
                         <p className="text-lg font-semibold text-center mt-5 w-full">Fransa Çevrimiçi Yemek Sipariş Partnerleri</p>
                         <div className="relative h-48 w-48">
                             <Image
@@ -186,7 +186,9 @@ export default function AboutUs() {
                         </div>
                     </div>
                 </main>
-                <Footer />
+                <div className="w-full bg-kitchen-green py-4 text-center text-white">
+                    Telif Hakkı © 2023 Paris Ghost Kitchen - Tüm Hakları Saklıdır.
+                </div>
             </div>
         </>
     );
