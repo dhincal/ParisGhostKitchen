@@ -53,6 +53,14 @@ export default function AboutUs() {
                             Avrupa’da ghost kitchen operasyonel olarak güçlü olduğumuz Paris şehrinde
                             başlayacak ve sonrasında birden fazla lokasyonda şubeleşmeye devam edecektir.
                         </p>
+                        <div className="relative w-full sm:w-9/12 h-72 rounded-2xl">
+                            <Image
+                                src="/paris.jpg"
+                                fill
+                                className="object-cover rounded-2xl"
+                                alt="Ghost Kitchen"
+                            />
+                        </div>
                         <div className="flex flex-wrap gap-y-5 justify-center gap-x-9">
                             <p className="text-lg font-semibold text-center mt-5 w-full">Fransa Çevrimiçi Yemek Sipariş Partnerleri</p>
                             <div className="relative h-32 w-32">
