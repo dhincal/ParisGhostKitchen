@@ -3,8 +3,6 @@ import nodemailer from 'nodemailer';
 const email = process.env.EMAIL;
 const password = process.env.EMAIL_PASSWORD
 
-//didfvrygcmsxufyn
-
 //ihnceylxyfxehial
 export const sender = nodemailer.createTransport({
 

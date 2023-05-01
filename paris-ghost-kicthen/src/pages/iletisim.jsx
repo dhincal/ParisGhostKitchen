@@ -127,7 +127,7 @@ export default function ContactUs() {
                                         GÖNDER
                                     </p>
                                     <div
-                                        className={`${isLoading ? "" : "hidden"} h-1 w-1 border-4 p-2.5 rounded-full border-t-agent-gray border-agent-gray/30 animate-spin`}></div>
+                                        className={`${isLoading ? "" : "hidden"} h-1 w-1 border-4 p-2.5 rounded-full border-t-kitchen-gray border-kitchen-orange animate-spin mx-auto`}></div>
                                 </button>
                             </div>
                         </div>
