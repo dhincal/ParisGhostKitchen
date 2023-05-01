@@ -29,9 +29,9 @@ export default function Home() {
         <div className='flex flex-col md:flex md:flex-row md:justify-center md:flex-wrap w-full items-center mt-10 gap-y-10 md:font-normal'>
           <MenuItem name="Bol De Saumon / Salmon Bowl" price={19.90} category={"soup"} />
           <MenuItem name="Bol Falafel / Falafel Bowl" price={17.90} category={"soup"} />
-          <MenuItem name="Bol de Fruits De Mer / Seafood ( Poke ) Bowl" price={19.90} category={"soup"} />
+          <MenuItem name="Bol De Fruits De Mer / Seafood (Poke) Bowl" price={19.90} category={"soup"} />
           <MenuItem name="Bol De Légumes / Veggie Bowl" price={17.90} category={"soup"} />
-          <MenuItem name="Bol Forêt Noire / Black Forest ( Acai ) Bowl" price={18.90} category={"soup"} />
+          <MenuItem name="Bol Forêt Noire / Black Forest (Acai) Bowl" price={18.90} category={"soup"} />
         </div>
         <div className='flex flex-col items-center'>
           <div className='w-[250px] h-[250px] rounded-full relative mt-10'>
