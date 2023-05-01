@@ -1,8 +1,6 @@
 import Image from "next/image";
 import Head from "next/head";
 import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
-import { PhoneIcon } from "@heroicons/react/24/outline";
 
 export default function AboutUs() {
     return (
